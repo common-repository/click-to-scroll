@@ -1,0 +1,47 @@
+.cts-button {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+
+.cts-button.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cts-button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.cts-button-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.cts-button-image {
+    max-width: 150px;
+}
+
+.cts-button-image img {
+    max-width: 100%;
+}

@@ -1,0 +1,35 @@
+.cts-slider-inner {
+    display: table;
+    width: 70%;
+}
+
+.cts-slider-inner .cts-td {
+    display: table-cell;
+}
+
+.cts-slider-inner .cts-td.cts-size-20 {
+    width: 20%;
+}
+
+.cts-slider-inner .cts-td.cts-size-60 {
+    width: 60%;
+}
+
+.cts-slider-inner .cts-td:last-child {
+    text-align: right;
+}
+
+.cts-instructions {
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    color: #666;
+}
+
+.cts-button-image {
+    max-width: 150px;
+}
+
+.cts-button-image img {
+    max-width: 100%;
+}
